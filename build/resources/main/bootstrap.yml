@@ -2,14 +2,15 @@
 
 spring:
   application:
-    name: person
-      
+    name: person   
   security:
     user:
       name: jhagen1908
       password: timmy   
-
   jpa:
     hibernate:
-      ddl-auto: update
-         
+      ddl-auto: update      
+  datasource:
+    url: jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_33d6d135d463633?user=b9f5c70dceeeb8&password=c0b2f781
+    username: b9f5c70dceeeb8
+    password: c0b2f781    
